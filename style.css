@@ -139,6 +139,10 @@
     opacity:0;
 }
 
+#check:checked ~ .Brand-name{
+dispaly:none;
+}
+
 #check:checked ~ .sidebar_menu .btn_two i {
     opacity: 1;
 }
